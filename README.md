@@ -29,7 +29,7 @@ Step 4: open mongo-express from browser
 
     http://localhost:8081
 
-Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
+Step 5: create `user-acc` _db_ and `users` _collection_ in mongo-express
 
 Step 6: Start your nodejs application locally - go to `app` directory of project 
 
@@ -65,6 +65,6 @@ Step 5: access the nodejs application from browser
 
 #### To build a docker image from the application
 
-    docker build -t my-app:1.0 .       
+    docker build -t js-app:latest .       
     
 The dot "." at the end of the command denotes location of the Dockerfile.
